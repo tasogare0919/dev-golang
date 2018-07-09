@@ -3,7 +3,7 @@ Description: lambda go send to slack.
 Resources:
   SendSlack:
     Properties:
-      CodeUri: s3://xxxx/xxxx/f3f293849affa6afd59e9dff5094ca05
+      CodeUri: s3://xxxx/xxxx/xxxx
       Events:
         Environment:
           Variables:

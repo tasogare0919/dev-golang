@@ -8,13 +8,11 @@ Resources:
       Handler: main
       Runtime: go1.x
       CodeUri: "main.zip"
-      # CloudWatch Event設定
       Events:
         Timer:
           Type: Schedule
           Properties:
             Schedule: cron(* * * * ? *)
-      #環境変数
         Environment:
           Variables:
-            slackURL: https://hooks.slack.com/services/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
+            slackURL: https://hooks.slack.com/services/xxxxxxxxx
